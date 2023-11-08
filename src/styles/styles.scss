@@ -1,4 +1,7 @@
 @import './base/_variables';
 @import './base/_global';
+@import './misc/mixins';
 
 @import './modules/_shinny-button';
+@import './modules/_content';
+@import './modules/_main';
