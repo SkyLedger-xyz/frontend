@@ -10,11 +10,11 @@
   border: 1px solid $dark-white;
 
   @include respond(largeTablet) {
-    height: 50vh;
+    // height: 50vh;
     width: 80%;
   }
   @include respond(tablet) {
-    height: 50vh;
+    // height: 50vh;
     width: 95%;
   }
   @include respond(largePhone) {
