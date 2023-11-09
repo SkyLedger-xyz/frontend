@@ -1,0 +1,50 @@
+.input {
+  width: 45%;
+  min-width: 300px;
+  height: 48px;
+  border: none;
+  margin: 8px auto;
+
+  &__icon {
+    max-width: 42px;
+  }
+
+  &__box {
+    padding: 0 8px;
+    font-weight: 200;
+    font-size: large;
+  }
+
+  .s {
+    width: 50%;
+    height: inherit;
+  }
+
+  .m {
+    min-width: calc(75% - 42px);
+    height: inherit;
+  }
+
+  .l {
+    min-width: calc(100% - 42px);
+    height: inherit;
+  }
+}
+
+.flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: normal;
+  flex-wrap: wrap;
+
+  @media (max-width: 633px) {
+  }
+}
+
+.icon_to_right {
+  flex-direction: row-reverse;
+
+  @media (max-width: 633px) {
+    flex-direction: unset;
+  }
+}
